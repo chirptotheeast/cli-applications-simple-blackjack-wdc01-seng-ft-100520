@@ -50,10 +50,8 @@ def hit?(card_total)
      card_total += deal_card 
     elsif user_input == 's' 
       card_total
-    else get_user
+    else
      invalid_command
-     prompt_user
-     return card_total
     end
 end
 
