@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -46,6 +48,7 @@ def hit?
    if get_user_input == 'h'
      deal_card
      card_total += deal_card 
+    end
    if get_user_input != 's' || 'h' 
      invalid_command
      prompt_user
