@@ -55,6 +55,7 @@ def hit?
     end
    end
    
+  binding.pry
 
 end
 
