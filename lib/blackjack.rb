@@ -54,9 +54,7 @@ def hit?
      prompt_user
     end
    end
-   
-  binding.pry
-
+  #binding.pry
 end
 
 def invalid_command
