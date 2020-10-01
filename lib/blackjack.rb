@@ -52,9 +52,8 @@ def hit?(card_total)
       card_total
     else
      invalid_command
-    
+    puts "Type 'h' to hit or 's' to stay"
     end
-     prompt_user
 end
 
 def invalid_command
